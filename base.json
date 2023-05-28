@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Видеокарта MSI NVIDIA GeForce RTX 4090",
+    "price": "199 990",
+    "imageUrl": "/Atro-Sneakes/img/sneakers/1.png",
+    "brandname": "MSI",
+    "brandImage": "/Atro-Sneakes/img/sneakers/1.1.png"
+  },
+  {
+    "id": 2,
+    "title": "Видеокарта MSI NVIDIA GeForce RTX 2080",
+    "price": "172 990",
+    "imageUrl": "/Atro-Sneakes/img/sneakers/2.jpg",
+    "brandname": "MSI",
+    "brandImage": "/Atro-Sneakes/img/sneakers/1.1.png"
+  },
+  {
+    "id": 3,
+    "title": "Видеокарта PALIT NVIDIA GeForce RTX 2070",
+    "price": "148 490",
+    "imageUrl": "/Atro-Sneakes/img/sneakers/3.png",
+    "brandname": "MSI",
+    "brandImage": "/Atro-Sneakes/img/sneakers/1.1.png"
+  },
+  {
+    "id": 4,
+    "title": "Видеокарта Gainward GeForce RTX 2070 SUPER Phoenix V1",
+    "price": "138 990",
+    "imageUrl": "/Atro-Sneakes/img/sneakers/4.png",
+    "brandname": "MSI",
+    "brandImage": "/Atro-Sneakes/img/sneakers/1.1.png"
+  }
+]

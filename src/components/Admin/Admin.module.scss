@@ -1,0 +1,507 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  /* Text/Normal */
+
+  color: #adb3cc;
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #585f80;
+}
+
+.greed_section {
+  padding: 50px;
+  background: #0d1519;
+  display: flex;
+  flex-direction: column;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  width: 1080px;
+  height: 900px;
+
+  .siteperfomance {
+    width: 990px;
+    height: 300px;
+    .info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    .blocks {
+      display: flex;
+
+      justify-content: space-between;
+      .block {
+        background: #1a1e30;
+        border-radius: 12px;
+        width: 320px;
+        height: 200px;
+        align-items: center;
+        padding: 25px;
+        justify-content: space-between;
+
+        h1 {
+          color: #15db51;
+        }
+
+        .sneaker_logo {
+          margin-left: 80px;
+          margin-top: -10px;
+          margin-bottom: -20px;
+        }
+        .block_info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+
+            /* Text/Normal */
+
+            color: #adb3cc;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .block_static {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #00de73;
+          }
+          .h_error {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #f21010 !important;
+          }
+          img {
+            color: #ddeffa;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+      .block:hover {
+        background: rgb(4, 188, 74) 100%;
+        border-radius: 12px;
+        width: 320px;
+        height: 200px;
+
+        padding: 25px;
+        justify-content: space-between;
+        h1 {
+          color: #ddeffa;
+        }
+        .block_info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+
+            /* Text/Normal */
+
+            color: #ddeffa;
+          }
+        }
+        .block_static {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #effff7;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .userperfomance {
+    width: 990px;
+    height: 300px;
+    margin-top: 90px;
+    .info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    .blocks {
+      display: flex;
+      .table {
+        border-collapse: collapse;
+        width: 650px;
+        height: 350px;
+
+        th {
+          padding: 10px;
+          text-align: left;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.02em;
+          color: #55597d;
+        }
+        .No {
+          width: 45px;
+          height: 39px;
+        }
+        .Name {
+          width: 130px;
+          height: 39px;
+        }
+        .Product {
+          width: 200px;
+          height: 39px;
+        }
+        .Address {
+          width: 140px;
+          height: 39px;
+        }
+        .Price {
+          width: 120px;
+        }
+
+        td {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          padding: 10px;
+
+          letter-spacing: -0.02em;
+
+          color: #adb3cc;
+        }
+        tr:hover td {
+          background-color: #1a1e30;
+          color: #15db51;
+        }
+      }
+
+      justify-content: space-between;
+      .block {
+        background: #1a1e30;
+        border-radius: 12px;
+        width: 320px;
+        height: 370px;
+        align-items: center;
+        padding: 25px;
+        justify-content: space-between;
+
+        h1 {
+          color: #15db51;
+        }
+
+        .product {
+          border: 1px solid #00de73;
+          margin-bottom: 10px;
+          padding: 5px;
+          border-radius: 25px;
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: left;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #585f80;
+          }
+        }
+
+        .product_some {
+          border: 1px solid #00de73;
+          margin-bottom: 10px;
+          padding: 5px;
+          border-radius: 25px;
+          height: 70px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: left;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #585f80;
+          }
+        }
+
+        .sneaker_logo {
+          margin-left: 80px;
+          margin-top: -10px;
+          margin-bottom: -20px;
+        }
+        .block_info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+
+            /* Text/Normal */
+
+            color: #adb3cc;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .block_static {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #00de73;
+          }
+          .h_error {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #f21010 !important;
+          }
+          img {
+            color: #ddeffa;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+      .block:hover {
+        border-radius: 12px;
+        width: 320px;
+        height: 350px;
+
+        padding: 25px;
+        justify-content: space-between;
+        h1 {
+          color: #ddeffa;
+        }
+        .block_info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          h2 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+
+            /* Text/Normal */
+
+            color: #ddeffa;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .block_static {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            padding-bottom: 5%;
+            text-align: center;
+            margin-top: 18px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+
+            color: #effff7;
+          }
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+.chart_container {
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.chart_bar_first {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #15db51;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  p {
+    text-align: left;
+    color: #effff7;
+  }
+}
+.chart_bar_sec {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #15db51;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  p {
+    text-align: left;
+    color: #effff7;
+  }
+}
+.chart_bar_thrd {
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #15db51;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  p {
+    text-align: left;
+    color: #effff7;
+  }
+}
+.chart_bar_four {
+  p {
+    text-align: left;
+    color: #effff7;
+  }
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #15db51;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+}
+.wrapper {
+  position: relative;
+  border-radius: 18px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(165, 165, 165);
+  p {
+    margin: 0;
+  }
+  img {
+    opacity: 0.8;
+    position: absolute;
+    z-index: 0;
+    width: 100%; /* задаем ширину картинки на 100% от родительского блока */
+    height: 100%; /* задаем высоту картинки на 100% от родительского блока */
+    object-fit: cover; /* устанавливаем свойство object-fit: cover, чтобы картинка заполняла всю область и сохраняла пропорции */
+    top: 0; /* выравниваем картинку по верхнему краю блока */
+    left: 0; /* выравниваем картинку по левому краю блока */
+
+    border-radius: 18px;
+  }
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
